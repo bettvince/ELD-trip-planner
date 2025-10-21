@@ -1,0 +1,8 @@
+body { margin:0; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:#f7f8fa; color:#222; }
+.panel { display:flex; gap:18px; }
+.formCol { width:320px; background:#fff; border-radius:8px; padding:12px; box-shadow:0 1px 3px rgba(0,0,0,0.05);}
+.mapCol { flex:1; }
+label { display:block; margin-bottom:8px; font-size:13px; color:#444;}
+input { width:100%; padding:8px; margin-top:6px; border-radius:6px; border:1px solid #e5e7eb; }
+button { padding:8px 12px; border-radius:8px; border:none; background:#2563eb; color:#fff; cursor:pointer; }
+h1 { font-size:20px; }

@@ -1,0 +1,45 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Tailwind Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+body {
+  @apply bg-background text-gray-800 font-sans antialiased;
+}
+
+/* Header Styling */
+header {
+  @apply bg-primary text-white shadow-md;
+}
+
+/* Input & Button Styles */
+input {
+  @apply border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary;
+}
+
+button {
+  @apply bg-primary text-white font-medium py-2 px-4 rounded-lg hover:bg-blue-700 transition;
+}
+
+button:disabled {
+  @apply bg-gray-400 cursor-not-allowed;
+}
+
+/* Card Containers */
+.card {
+  @apply bg-white rounded-2xl shadow-md border border-gray-200 p-4;
+}
+
+/* Section Headings */
+h2 {
+  @apply text-lg font-semibold mb-3 text-gray-700;
+}
+
+/* Footer */
+footer {
+  @apply text-center text-gray-500 text-sm py-3 border-t;
+}
